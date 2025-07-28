@@ -1,10 +1,8 @@
-enemies = 1
+friend = 1
 
+def increase_friend():
+    friend = 2
+    print(f"Friend inside function:{friend}")
 
-def increase_enemies():
-    enemies = 2
-    print(f"enemies inside function: {enemies}")
-
-
-increase_enemies()
-print(f"enemies outside function: {enemies}")
+increase_friend()
+print(f"friend outside function: {friend}")
