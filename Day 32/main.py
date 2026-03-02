@@ -3,7 +3,7 @@ import smtplib
 from pyexpat.errors import messages
 
 my_email="fittrack45@gmail.com"
-password="mmjy ansd iiui fqnk"
+password="password"
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
